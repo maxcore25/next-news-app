@@ -1,9 +1,8 @@
 import Head from 'next/head';
-// import styles from '../styles/EOM.module.css';
+import styles from '../styles/EOM.module.css';
 // import { Toolbar } from '../components/toolbar';
 
 const EOM = ({ employee }) => {
-  console.log(employee);
   return (
     <>
       <Head>
