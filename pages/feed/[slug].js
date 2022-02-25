@@ -5,6 +5,8 @@ import { Toolbar } from '../../components/toolbar';
 
 export const Feed = ({ articles, pageNumber }) => {
   const router = useRouter();
+  console.log(articles);
+
   return articles.length ? (
     <>
       <Head>
